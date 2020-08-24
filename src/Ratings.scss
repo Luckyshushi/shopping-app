@@ -1,0 +1,12 @@
+.rating-wrapper{
+  margin-top: 5px;
+  &__input[type="radio"]{
+    display: none;
+  }
+
+  &__star{
+    cursor:pointer;
+    font-size: 12px;
+    transition: color .7s ease;
+  }
+}
